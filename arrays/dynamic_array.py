@@ -118,3 +118,8 @@ class DynamicArray(object):
 		Returns a new array with new_cap capacity 
 		"""
 		return (new_cap * ctypes.py_object)() 
+
+A = DynamicArray()
+print(A.__len__())
+A.append(20)
+print(A())
